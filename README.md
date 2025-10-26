@@ -8,7 +8,7 @@
 
 ---
 
-## Instruções (fluxo simulado)
+## Instruções
 
 ### 1) Build da imagem Docker
 ```bash
@@ -40,7 +40,7 @@ kubectl apply -f ../k8s/service.yaml
 kubectl port-forward deployment/infra-prova-api 5000:5000
 ```
 
-### 4) Terraform + LocalStack (IaC simulado)
+### 4) Terraform + LocalStack
 - Inicie LocalStack (instalado localmente): `localstack start`
 - Na pasta terraform:
 ```bash
